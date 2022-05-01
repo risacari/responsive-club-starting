@@ -1,0 +1,375 @@
+/* general */
+
+body {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.titulo h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "concert one", cursive;
+    font-size: 3rem;
+}
+
+table, p, h3 {
+    font-family: "lato", sans-serif;
+}
+
+
+/* header */
+
+.header {
+    background-image: url(../images/background1.jpg);
+}
+
+.header nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 4rem;
+}
+
+.header nav ul li, a {
+    text-justify: center;
+    text-align: center;
+    text-decoration: none;
+    font-family: "patrick hand", cursive;
+    font-size: 2rem;
+    color: white;
+}
+
+.header nav ul a:hover {
+    background-color: aquamarine;
+    color: darkblue;
+}
+
+/* intro */
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 1150px;
+    background-image: url(../images/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.intro h1 {
+    width: 100%;
+    font-family: "fredoka one", cursive;
+    font-size: 2.5rem;
+    color:blue;
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* frase */
+
+.frase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 1200px;
+    justify-content: space-evenly;
+    background-color: darkcyan;
+}
+
+#citacao {
+    font-size: 3.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#nome {
+    margin-top: o;
+    margin-bottom: 0;
+    font-size: 3rem;
+    padding-left: 2rem;
+}
+
+#descricao {
+    font-size: 2rem;
+    margin-top: 0;
+    padding-left: 2rem;
+}
+
+.imagemnadador {
+    width: 100%;
+}
+
+.frase img {
+    width: 100%
+}
+
+/* quem somos */
+
+#quemsomos {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    min-height: 1200px;
+    justify-content: space-evenly;
+}
+
+#quemsomos .titulo {
+    text-align: center;
+}
+
+#quemsomos .fotos {
+    display: flex;
+    wiidth: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#pic1 img, #pic2 img {
+    width:80%;
+}
+
+#pic3 {
+    display: none;
+}
+
+#explicacao {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 2rem;
+}
+
+/* tipos de nado */
+
+#tipos { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 1200px;
+    background-image: url(../images/background1.jpg);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#tipos h1 {
+    color:rgba(255, 255, 0, 0.74)
+}
+
+.categorias {
+    max-width: 100%;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.livre {
+    max-width: 100%;
+    min-height: 250px;;
+    background-image: url(../images/freestyle.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}   
+
+.livre h3 {
+    background-color: rgba(200, 255, 0, 0.616);
+    margin: 0;
+    line-height: 3rem;
+    font-size: 2rem;
+}
+
+.costas {
+    min-height: 250px;
+    background-image: url(../images/backstroke.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.costas h3 {
+    background-color: rgba(200, 255, 0, 0.616);
+    margin: 0;
+    line-height: 3rem;
+    font-size: 2rem;
+}
+
+.peito {
+    min-height: 250px;
+    background-image: url(../images/peito.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.peito h3 {
+    background-color: rgba(200, 255, 0, 0.616);
+    margin: 0;
+    line-height: 3rem;
+    font-size: 2rem;
+}
+
+.borboleta {
+    min-height: 250px;
+    background-image: url(../images/borboleta.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.borboleta h3 {
+    background-color: rgba(200, 255, 0, 0.616);
+    margin: 0;
+    line-height: 3rem;
+    font-size: 2rem;
+}
+
+/* caminhada */
+
+#caminhada { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 1200px;
+    background-color: darkcyan;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.imagem-caminhada {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+#caminhada .imagem-caminhada img {
+    width: 100%;
+}
+
+#caminhada p  {
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+/* horários */
+
+#horarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 1200px;
+    background-color: aquamarine;
+}
+
+.tabela {
+    display: flex;  
+    justify-content: center;
+    width: 100%
+}
+
+table {
+    width: 80%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    font-size: 2rem;
+}
+
+td {
+    font-size: 2rem;
+}
+
+/* footer */
+
+.footer {
+    background-image: url(../images/background1.jpg);
+    text-align: center;
+    color: white;
+}
+
+/*media querys */
+
+@media only screen and (max-width: 1100px) {
+    .header nav ul li, a {
+        font-size: 1rem;
+        min-width: 10rem;
+    }
+
+    #citacao {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .frase {
+        display: flex;  
+        flex-wrap: wrap;
+    }
+
+    .citacao {
+        min-width: 532px;
+        padding-left: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .header nav ul li, a {
+        font-size: 1rem;
+        min-width: 12rem;
+    }
+
+    .header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only scren and (max-width: 600px) {
+    #citação {
+        font-size: 1.5rem;
+        padding-left: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        width: 400px;
+        width: 400px;
+    }
+}
